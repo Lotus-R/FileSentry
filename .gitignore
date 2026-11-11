@@ -1,0 +1,17 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Generated FileSentry baselines
+baseline.json
+baseline_test.json
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
