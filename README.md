@@ -23,8 +23,10 @@ This project demonstrates practical Python programming, filesystem operations, c
 
 ## Requirements
 
-- Python 3.14.8 (version used during development and testing).
+- Python 3.14.8 or later.
 - No third-party Python packages are required.
+
+Tested with Python 3.14.8 on Linux and Python 3.15.2 on Windows.
 
 FileSentry uses Python standard-library modules.
 
