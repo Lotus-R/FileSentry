@@ -45,13 +45,13 @@ def scan_directory(root_directory):
                     raise OSError("File metadata changed during hashing; consistency cannot be verified.")
 
             inventory.append({
-                "path": str(path.relative_to(root)),
+                "path": path.relative_to(root).as_posix(),
                 "size": stats_after.st_size,
                 "sha256": digest
             })
         except OSError as error:
             errors.append({
-                "path": str(path.relative_to(root)),
+                "path": path.relative_to(root).as_posix(),
                 "error": str(error)
             })
 
