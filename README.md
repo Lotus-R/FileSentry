@@ -33,7 +33,7 @@ FileSentry uses Python standard-library modules.
 Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Lotus-R/FileSentry.git
 ```
 
 Navigate into the project directory:
